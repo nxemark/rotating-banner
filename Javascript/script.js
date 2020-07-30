@@ -22,15 +22,16 @@
 //     return document.getElementById("history").style.display = "block";
 // 
 
-var names, out, i, text;
-names = ["Mark", "Mary", "Ezekiel", "Victor"];
-text = names.length;
-console.log(names[2]);
+// var names, out, i, text;
+// names = ["Mark", "Mary", "Ezekiel", "Victor"];
+// text = names.length;
+// console.log(names[2]);
 
-out = "<ol>";
-for (i = 0; i< text; i++) {
-    out += "<li>" + names[i] + "</li>";
-}
-out += "</ol>";
-document.getElementById("mack").innerHTML = out;
+// out = "<ol>";
+// for (i = 0; i< text; i++) {
+//     out += "<li>" + names[i] + "</li>";
+// }
+// out += "</ol>";
+// document.getElementById("mack").innerHTML = out;
+
 

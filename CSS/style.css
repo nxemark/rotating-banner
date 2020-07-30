@@ -1,5 +1,5 @@
 body {
-  background: #fcfbf8; }
+  background-color: #e9e9ed; }
 
 p:first-letter {
   color: #ff0000;
@@ -19,7 +19,7 @@ p:first-line {
   position: fixed;
   left: 0;
   height: 100%;
-  background-color: #fcfbf8; }
+  background-color: #dfc1c1; }
 
 .navigation li a {
   display: block;
@@ -41,7 +41,7 @@ div.mc2 {
 
 .navigation2 {
   list-style-type: none;
-  background-color: #e9e9ed;
+  background-color: #96e2f0;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -80,11 +80,10 @@ div.mc1 {
   display: none;
   min-width: 120px;
   border: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  background-color: #f9f9f9;
-  overflow: auto; }
+  background-color: #f9f9f9; }
 
 .drop-content a {
-  display: block;
+  display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
   color: black; }
@@ -120,8 +119,9 @@ div.mc1 {
   .navigation2 li a {
     text-align: center; }
 
-  a.dropbtn {
-    margin-left: 205%; } }
+  .buy2 {
+    display: block;
+    text-align: center; } }
 @media screen and (max-width: 700px) {
   .navigation li {
     float: none; }
@@ -150,7 +150,5 @@ div.mc1 {
   .navigation2 li,
   .navigation2 li.shop {
     float: none; } }
-h1, h2, h3, h4, h5, h6, p {
-  color: #29264c; }
 
 /*# sourceMappingURL=style.css.map */
