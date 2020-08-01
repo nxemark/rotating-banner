@@ -9,6 +9,102 @@ input[type=submit] {
   border-radius: 5px;
   color: white; }
 
+.footer {
+  background-color: #bebebe;
+  margin-top: 10px;
+  width: 100%;
+  display: block;
+  height: 60px; }
+  .footer h3 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px; }
+
+* {
+  box-sizing: border-box; }
+
+p {
+  color: #000000;
+  opacity: 1; }
+
+.navigation {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  background-color: #000000; }
+
+nav a {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none; }
+
+nav a:hover {
+  background-color: #aaaaaa;
+  color: black; }
+
+.content {
+  width: 100%; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.col-8 {
+  float: left;
+  width: 70%;
+  margin-top: 15px; }
+
+.col-2 {
+  float: left;
+  width: 28%;
+  margin-top: 10px;
+  margin-left: 17px; }
+
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  margin-top: 15px; }
+  .card p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: black;
+    font-size: 17px; }
+
+.image {
+  background-color: #999797;
+  width: 100%;
+  height: auto; }
+  .image p {
+    padding: 10px;
+    margin: 0;
+    color: black;
+    font-size: 17px;
+    text-align: left; }
+
+div.col-2 div.card {
+  margin-top: 20px; }
+
+div.col-8 div.image {
+  height: 100px; }
+
+@media screen and (max-width: 900px) {
+  .col-2 {
+    width: 100%;
+    margin-left: 0px; }
+
+  .col-8 {
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  div.navigation a {
+    display: block;
+    float: none !important; } }
 header {
   color: white;
   margin-top: 15%;
@@ -28,6 +124,29 @@ p {
   padding-left: 15%;
   font-size: 20px;
   opacity: 0.6; }
+
+.head {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  border: none; }
+  .head h1 {
+    color: #000000;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: sans-serif; }
+  .head p {
+    color: #000000;
+    padding: 0px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 16px;
+    opacity: 1; }
 
 * {
   box-sizing: border-box; }
