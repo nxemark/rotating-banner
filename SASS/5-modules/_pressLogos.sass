@@ -19,3 +19,96 @@
 //     -webkit-transition: 0.5s
 //     traisition: 0.5s
 //     width: 50%
+
+
+// .image 
+//     display: block
+//     margin: auto
+//     margin-top: 25%
+//     border: 2px solid #dddddd
+//     padding: 5px
+//     border-radius: 9px
+//     width: 400px
+//     max-width: 100%
+//     height: auto
+//     transition: box-shadow 0.5s
+//     &:hover
+//         box-shadow: 0px 0px 10px 0px #5097e933 
+
+.polaroid
+    display: block
+    background-color: white
+    margin: auto
+    margin-top: 200px
+    width: 400px
+    height: auto
+    background-color: white
+    box-shadow: 0 4px 8px 0 rgba(0,30,0,0.2), 0 8px 20px 0 rgba(30,0,0,0.19)
+    position: relative
+    animation-name: color
+    animation-duration: 10s
+    animation-iteration-count: infinite
+    animation-direction: alternate
+
+.polaroid::after
+    content: ""
+    position: absolute
+    top: 100%
+    left: 50%
+    height: 200px
+    width: 20px
+    background: black
+    background-color: red 
+
+        
+
+.image
+    width: 100%
+    height: 100%
+    opacity: 0.9
+
+
+.polaroid p 
+    padding-bottom: 15px
+    text-align: center
+
+
+@keyframes color
+    0%
+        filter: hue-rotate(0deg)
+        left: 0px
+    10%
+        filter: hue-rotate(100deg)
+        left: 10px
+        
+    20%
+        filter: hue-rotate(200deg)
+        left: 20px
+    30%
+        filter: hue-rotate(300deg)
+        left: 30px
+    40%
+        filter: hue-rotate(400deg)
+        left: 40px
+    50%
+        filter: hue-rotate(500deg)
+        left: 50px
+    60%
+        filter: hue-rotate(600deg)
+        left: 60px
+    70%
+        filter: hue-rotate(700deg)
+        left: 70px
+    80%
+        filter: hue-rotate(800deg)
+        left: 80px
+    90%
+        filter: hue-rotate(900deg)
+        left: 90px
+    100% 
+        filter: hue-rotate(1000deg)
+        left: 100px
+        transform: rotate(360deg)
+
+
+    
